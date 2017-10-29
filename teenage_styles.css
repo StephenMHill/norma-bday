@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+   
+   Norma's Birthday Homepage Style Sheet
+   Author: Stephen Hill   
+    Date: 2017-10-01 
+   
+   Filename: home_styles.css
+
+OVER ALL TOO DARK
+*/
+
+html {
+    background-color: rgba(17, 197, 238, 0.97)
+}
+
+body { 
+    background-color: rgb(205, 236, 248);
+}
+
+/* Navigation List Styles 
+
+	link color should change to somehting feminine.
+*/
+
+nav li {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+nav li a:link, nav li a:visited 
+{
+    background-color: yellow
+    color: #73E912;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+nav li a:hover, nav li a:active {
+    color: rgba(226, 219, 19, 0.93);
+    background-color: rgba(18, 82, 231, 0.5);

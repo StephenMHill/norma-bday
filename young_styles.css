@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*
+   
+   Norma's Birthday Homepage Style Sheet
+   Author: Stephen Hill   
+    Date: 2017-10-01 
+   
+   Filename: home_styles.css
+
+OVER ALL TOO DARK
+*/
+
+html {
+    background-color: rgb(203,139,155);
+}
+
+body { 
+    background-color: rgb(172,191,195);
+}
+
+#nov1 {
+    font-size: 4vw;
+    color: rgb(174,151,169);
+    font-family: monoton, cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#best1 {
+    font-size: 2vw;
+    color: rgb(203,139,155);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+p {
+    font-size: 1.4em;
+    color: rgb(240,204,208);
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Navigation List Styles 
+
+	link color should change to somehting feminine.
+*/
+
+nav li {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+nav li a:link, nav li a:visited 
+{
+    background-color: rgb(172,191,195);
+    color: rgb(203,139,155);
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+nav li a:hover, nav li a:active {
+    color: rgb(172,191,195);
+    background-color: rgb(240,204,208);
