@@ -17,6 +17,8 @@ html {
 
 body { 
     background-color: rgb(172,191,195);
+    width: 100%;
+    max-width: 1200px;
 }
 
 #nov1 {
@@ -46,6 +48,10 @@ p {
     font-weight: normal;
     text-align: center;
     margin-bottom: 0;
+}
+section
+{
+    display: inline-flex;
 }
 
 /* Navigation List Styles 
